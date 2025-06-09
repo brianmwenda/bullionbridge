@@ -20,8 +20,8 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full"></div>
+             <Link to="/" className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full"><img src="/lovable-uploads/icon.png" />  </div>
               <span className="text-xl font-extrabold tracking-wide bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
                 GoldMandate
               </span>
@@ -81,9 +81,9 @@ const Header = () => {
               <Link to="/" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Home</Link>
               <Link to="/about" className="text-left text-white hover:text-yellow-400 transition-colors py-2">About</Link>
               <Link to="/shop-gold-now" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Store</Link>
-              <Link to="/learn-more" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Returns & Exchanges</Link>
-              
+              <Link to="/learn-more" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Returns & Exchanges</Link>         
               <Link to="/contact" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Contact</Link>
+              
               <Button 
                 variant="ghost" 
                 size="sm" 
@@ -93,6 +93,7 @@ const Header = () => {
                 <Search className="w-4 h-4 mr-2" />
                 Search Products
               </Button>
+              
             </nav>
           </div>
         </div>
