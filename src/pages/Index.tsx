@@ -22,8 +22,8 @@ const Index = () => {
             Premium Gold Collection
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Discover our carefully curated selection of investment-grade precious metals, 
-            each piece certified for purity and authenticity.
+            Discover our exclusive network of investment-grade precious metals, 
+            each offering certified purity and authenticity carefully vetted to meet the highest standards in the gold trade.
           </p>
         </div>
 

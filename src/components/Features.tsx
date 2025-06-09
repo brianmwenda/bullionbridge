@@ -29,7 +29,7 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">
-            Why Choose <span className="text-yellow-400">BullionBridge</span>?
+            Why Choose <span className="text-yellow-400">GoldMandate</span>?
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             With decades of experience in precious metals, we provide unmatched quality, 

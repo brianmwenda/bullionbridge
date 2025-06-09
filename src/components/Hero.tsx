@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <Badge className="bg-yellow-500/20 text-yellow-400 border-yellow-500/30">
-                🏆 Trusted Since 2024
+                🏆 Trusted Gold Mandates, Authentic Deals.
               </Badge>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
                 Invest in 
@@ -26,8 +26,11 @@ const Hero = () => {
                 Secure Your Future
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed">
-                Premium precious metals at competitive prices. From investment-grade gold bars to collectible coins, 
-                we offer the finest selection of bullion with guaranteed authenticity.
+                At GoldMandate, we connect serious buyers with verified gold sellers for secure, 
+                commission-based transactions. Whether you're investing in high-purity gold bars 
+                or sourcing bulk bullion, we ensure every deal is authentic, transparent, and competitively priced.
+
+
               </p>
             </div>
             

@@ -23,7 +23,7 @@ const Header = () => {
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full"></div>
               <span className="text-xl font-extrabold tracking-wide bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                BullionBridge
+                GoldMandate
               </span>
             </Link>
 

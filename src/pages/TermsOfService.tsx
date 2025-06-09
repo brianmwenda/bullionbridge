@@ -13,12 +13,12 @@ const TermsOfService = () => {
         <div className="prose max-w-none text-gray-700 space-y-6">
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
-            <p>By accessing and using BullionBridge services, you accept and agree to be bound by the terms and provision of this agreement. These Terms of Service govern your use of our website and services.</p>
+            <p>By accessing and using GoldMandate services, you accept and agree to be bound by the terms and provision of this agreement. These Terms of Service govern your use of our website and services.</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Product Information</h2>
-            <p>All precious metals sold through BullionBridge are:</p>
+            <p>All precious metals sold through GoldMandate are:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Certified for purity and authenticity</li>
               <li>Sourced from reputable refineries</li>
@@ -69,13 +69,13 @@ const TermsOfService = () => {
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Limitation of Liability</h2>
-            <p>BullionBridge shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our services or products.</p>
+            <p>GoldMandate shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our services or products.</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Contact Information</h2>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <p><strong>Email:</strong> legal@bullionbridge.com</p>
+              <p><strong>Email:</strong> legal@GoldMandate.com</p>
               <p><strong>Phone:</strong> +254 735 389 953</p>
               <p><strong>Address:</strong> Nairobi, Kenya, East Africa</p>
             </div>

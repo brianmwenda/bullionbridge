@@ -11,7 +11,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-20 overflow-hidden">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Bullion Bridge Store</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Gold Mandate</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Your trusted partner in premium gold since 2015
           </p>
@@ -25,19 +25,21 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Bullion Bridge was founded with a simple mission: to provide access to the finest
-                gold products directly from Kenya's rich mining regions. We work closely with local
-                miners and certified refineries to ensure authenticity and quality.
+                GoldMandate was founded with a clear purpose: <strong> to bridge trusted gold sellers 
+                  from rich mining regions with serious global buyers. </strong> 
+                  
+                  We work directly with vetted small-scale miners, licensed dealers, and 
+                  certified refineries to ensure that every transaction is rooted in authenticity, compliance, and quality.
+
+
               </p>
               <p className="text-gray-600 mb-4">
-                Our team of experts has experience in the gold industry,
-                providing our customers with confidence in every transaction. We understand the
-                value of trust when dealing with precious metals.
+                From artisanal operations to large-scale ventures, our mandate relationships span across Kenya’s key gold-producing zones. Backed by industry experience and a strong commitment to transparency, our team provides buyers with the confidence and clarity they need when sourcing investment-grade gold.
+
+
               </p>
               <p className="text-gray-600">
-                From small-scale artisanal mining operations to large commercial ventures, we
-                maintain relationships across Kenya's gold-producing regions to source the
-                highest quality products for our global clientele.
+                At GoldMandate, we understand that in the gold trade, trust isn't optional, it's everything.
               </p>
             </div>
             <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
@@ -57,7 +59,11 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Values</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              These core principles guide everything we do
+              At GoldMandate, our commitment to trust, transparency, and authenticity is unwavering. 
+              These core principles guide every transaction we undertake, ensuring that our clients and 
+              partners can rely on us to deliver consistent results. We connect verified gold sellers 
+              with global buyers, ensuring certified quality and secure dealings. This dedication to our 
+              values makes us a trusted partner in sourcing gold and investment-grade precious metals worldwide.
             </p>
           </div>
           
@@ -68,7 +74,10 @@ const About = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Integrity</h3>
               <p className="text-gray-600">
-                Honest business practices and transparent communication in all our dealings
+                We uphold honest business practices and maintain transparent communication in every 
+                transaction. At GoldMandate, integrity is the foundation of our role as trusted intermediaries, 
+                ensuring both gold buyers and sellers can engage with confidence, knowing every deal is handled
+                 with professionalism, ethics, and full disclosure.
               </p>
             </div>
             
@@ -78,7 +87,9 @@ const About = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Quality</h3>
               <p className="text-gray-600">
-                Rigorous testing and certification processes ensure product authenticity
+                At GoldMandate, quality is non-negotiable. Every gold product we facilitate undergoes rigorous testing 
+                and is backed by trusted certification to ensure authenticity and purity. Our commitment to high standards 
+                guarantees that buyers receive only verified, investment-grade gold from reliable sources across Kenya’s gold-producing regions.
               </p>
             </div>
             
@@ -88,7 +99,9 @@ const About = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Trust</h3>
               <p className="text-gray-600">
-                Building long-term relationships through reliable service and support
+                Trust is at the heart of GoldMandate. We build lasting relationships by delivering consistent, reliable service and dedicated support. 
+                Through verified partnerships and transparent processes, we ensure that every gold transaction is secure, compliant, 
+                and backed by the confidence our global clients depend on.
               </p>
             </div>
           </div>
@@ -101,7 +114,7 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Expertise</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Meet the professionals behind Kenyan Gold Store
+              Meet the professionals behind GoldMandate
             </p>
           </div>
           
@@ -115,7 +128,7 @@ const About = () => {
                 />
               <h3 className="text-xl font-bold mb-2">Mining Operations</h3>
               <p className="text-gray-600">
-                Direct partnerships with certified mining operations across Kenya
+                Direct partnerships with certified mining operations across the world.
               </p>
             </div>
             
