@@ -89,7 +89,7 @@ const FAQ = () => {
                 href="tel:+254735389953" 
                 className="bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-600 transition-colors text-center"
               >
-                Call: +254 735 389 953
+                Call: +(254) 770 012 574
               </a>
               <a 
                 href="mailto:GoldMandate@gmail.com" 

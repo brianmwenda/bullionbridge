@@ -35,13 +35,13 @@ const Contact = () => {
                   <div className="space-y-6">
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h3 className="text-xl font-semibold text-yellow-600 mb-4">Phone</h3>
-                      <p className="text-gray-600 mb-2">Sales: +(254) 735 389 953</p>
+                      <p className="text-gray-600 mb-2">Sales: +(254) 770 012 574</p>
                        <p className="text-gray-600 text-sm">Monday - Friday: 8:00 AM - 6:00 PM EST</p>
                     </div>
 
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h3 className="text-xl font-semibold text-yellow-600 mb-4">Email</h3>
-                      <p className="text-gray-600 mb-2">info@GoldMandate.com</p>
+                      <p className="text-gray-600 mb-2">goldmandate254@gmail.com</p>
                       <p className="text-gray-600 text-sm">We respond within 24 hours</p>
                     </div>
 
@@ -54,7 +54,7 @@ const Contact = () => {
 
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h3 className="text-xl font-semibold text-yellow-600 mb-4">WhatsApp</h3>
-                      <p className="text-gray-600 mb-2">+(254) 735 389 953</p>
+                      <p className="text-gray-600 mb-2">+(254) 770 012 574</p>
                       <p className="text-gray-600 text-sm">Quick questions and order updates</p>
                     </div>
                   </div>
