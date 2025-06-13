@@ -22,72 +22,72 @@ const ShopGoldNow = () => {
     {
        id: 1,
       name: "23k Gold Bars - DRC",
-      price: 80089.99,
-      priceText: "$80,089.99",
-      originalPrice: "$82,150.00",
+      price: 70000.00,
+      priceText: "$70,000.00",
+      originalPrice: "$70,000.00",
       image: "/lovable-uploads/8fa12c23-7e6b-4dd0-95a3-95b4419b4d4f.png",
       badge: "Best Seller",
-      rating: 4.9,
+      rating: 8.5,
       reviews: 156,
       type: "bars"
     },
     {
       id: 2,
       name: "23k Gold Nuggets Rough",
-      price: 68245.50,
-      priceText: "$68,245.50",
+      price: 70000.00,
+      priceText: "$70,000.00",
       originalPrice: null,
       image: "/lovable-uploads/3eab1b5f-995d-42f3-a571-8593e7ef7d82.png",
       badge: "Rare",
-      rating: 4.8,
+      rating: 9.5,
       reviews: 89,
       type: "nuggets"
     },
     {
       id: 3,
       name: "23k Gold Nuggets Rounded",
-      price: 70450.00,
-      priceText: "$70,450.00",
-      originalPrice: "$80,600.00",
+      price: 70000.00,
+      priceText: "$70,000.00",
+      originalPrice: "$70,000.00",
       image: "/lovable-uploads/a5a2b5e8-cf09-4c93-af15-821caa576802.jpg",
       badge: "Limited",
-      rating: 5.0,
+      rating: 9.0,
       reviews: 34,
       type: "collections"
     },
     {
       id: 4,
       name: "22k Gold Bars - Raw Gold",
-      price: 79890.99,
-      priceText: "$79,890.99",
+      price: 65000.00,
+      priceText: "$65,000.00",
       originalPrice: null,
       image: "/lovable-uploads/e0049816-dbab-4b43-be2c-ec8590dd08a1.png",
       badge: "Premium",
-      rating: 4.9,
+      rating: 8.5,
       reviews: 67,
       type: "bars"
     },
     {
       id: 5,
       name: "23k Gold Bars Vault Reserve",
-      price: 74230.00,
-      priceText: "$74,230.00",
-      originalPrice: "$79,000.00",
+      price: 70000.00,
+      priceText: "$70,000.00",
+      originalPrice: "$70,000.00",
       image: "/lovable-uploads/615ecc60-7806-4ef1-a21a-3e88d5fba90c.jpg",
       badge: "Wholesale",
-      rating: 4.7,
+      rating: 9.0,
       reviews: 23,
       type: "bars"
     },
     {
       id: 6,
       name: "23k Gold bar Collection",
-      price: 68750.00,
-      priceText: "$68,750.00",
+      price: 70000.00,
+      priceText: "$70,000.00",
       originalPrice: null,
       image: "/lovable-uploads/23c0b343-dcbb-4dad-bebd-5bbe1d1598f1.png",
       badge: "New",
-      rating: 4.8,
+      rating: 8.0,
       reviews: 45,
       type: "collections"
     }
@@ -244,14 +244,18 @@ const ShopGoldNow = () => {
                   </CardContent>
                   
                   <CardFooter className="p-6 pt-0">
-                    <Button 
-                      className="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-black font-semibold"
-                      onClick={() => handleAddToCart(product)}
-                    >
-                      <ShoppingCart className="w-4 h-4 mr-2" />
-                      Add to Cart
-                    </Button>
-                  </CardFooter>
+                <Button 
+                  className="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-black font-semibold"
+                  onClick={() => {
+                    const whatsappNumber = "254770012574";
+                    const message = `Hi, I'm interested in the ${product.name}. Can you tell me more about it?`;
+                    const whatsappUrl = `https://wa.me/254770012574?text=${message}`;
+                    window.open(whatsappUrl, '_blank');
+                  }}
+                >
+                  Inquire Now
+                </Button>
+              </CardFooter>
                 </Card>
               ))}
             </div>

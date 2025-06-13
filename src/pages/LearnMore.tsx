@@ -40,7 +40,7 @@ const LearnMore = () => {
     {
       icon: RefreshCw,
       title: "Buyback Guarantee",
-      description: "We offer competitive buyback prices for products purchased through GoldMandate."
+      description: "We offer competitive buyback prices for products purchased through XicoTrading."
     }
   ];
 
@@ -131,7 +131,7 @@ const LearnMore = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose GoldMandate?</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose XicoTrading?</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We're committed to providing the best precious metals investment experience.
             </p>

@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
         <div className="prose max-w-none text-gray-700 space-y-6">
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Information We Collect</h2>
-            <p>At GoldMandate, we collect information you provide directly to us, such as when you create an account, make a purchase, or contact us for support. This includes:</p>
+            <p>At XicoTrading, we collect information you provide directly to us, such as when you create an account, make a purchase, or contact us for support. This includes:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Personal identification information (name, email address, phone number)</li>
               <li>Billing and shipping addresses</li>
@@ -72,7 +72,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Contact Us</h2>
             <p>If you have any questions about this Privacy Policy, please contact us at:</p>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <p><strong>Email:</strong> goldmandate254@gmail.com</p>
+              <p><strong>Email:</strong> Xicotradinglimited@gmail.com</p>
               <p><strong>Phone:</strong> +(254) 770 012 574</p>
               <p><strong>Address:</strong> Nairobi, Kenya, East Africa</p>
             </div>

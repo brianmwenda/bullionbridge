@@ -26,9 +26,9 @@ const Hero = () => {
                 Secure Your Future
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed">
-                At GoldMandate, we connect serious buyers with verified gold sellers for secure, 
+                At XicoTrading, we connect serious buyers with verified gold sellers for secure, 
                 commission-based transactions. Whether you're investing in high-purity gold bars 
-                or sourcing bulk bullion, we ensure every deal is authentic, transparent, and competitively priced.
+                or sourcing bulk supply, we ensure every deal is authentic, transparent, and competitively priced.
 
 
               </p>
@@ -36,7 +36,7 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/shop-gold-now"> <Button size="lg" className="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-black font-semibold">
-                Shop Gold Now
+                View Available Gold 
               </Button></Link>
               <Link to="/learn-more"><Button size="lg" variant="outline" className="border-yellow-400 text-black hover:bg-yellow-400 hover:text-white">
                   Learn More

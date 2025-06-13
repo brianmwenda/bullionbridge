@@ -22,9 +22,9 @@ const Preloader = () => {
           <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-yellow-500 animate-spin"></div>
         </div>
         
-        {/* GoldMandate text */}
+        {/* XicoTrading text */}
         <div className="text-center">
-          <h2 className="text-2xl font-bold text-gray-800 mb-1">GoldMandate</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-1">XicoTrading</h2>
           <p className="text-sm text-gray-600">Loading...</p>
         </div>
         

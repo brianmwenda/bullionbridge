@@ -10,13 +10,13 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-               <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full"><img src="/lovable-uploads/icon.png" />  </div>
+               <div className="w-20 h-20 rounded-full"><img src="/lovable-uploads/icon.png" />  </div>
               <span className="text-xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                GoldMandate
+                XicoTrading
               </span>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              GoldMandate has been helping clients secure their financial future through strategic gold and silver 
+              XicoTrading has been helping clients secure their financial future through strategic gold and silver 
               transactions. As a reliable mandate, we connect buyers with vetted sellers, offering authentic, 
               investment-grade metals with professionalism, transparency, and a strong commitment to long-term value.
             </p>
@@ -74,7 +74,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-yellow-400" />
-                <span className="text-gray-300">goldmandate254@gmail.com</span>
+                <span className="text-gray-300">XicoTradinglimited@gmail.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-yellow-400 mt-1" />
@@ -90,7 +90,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 GoldMandate. All rights reserved.
+            © 2025 XicoTrading. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/privacy-policy" className="text-gray-400 text-sm hover:text-yellow-400 transition-colors">

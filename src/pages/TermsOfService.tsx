@@ -13,12 +13,12 @@ const TermsOfService = () => {
         <div className="prose max-w-none text-gray-700 space-y-6">
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
-            <p>By accessing and using GoldMandate services, you accept and agree to be bound by the terms and provision of this agreement. These Terms of Service govern your use of our website and services.</p>
+            <p>By accessing and using XicoTrading services, you accept and agree to be bound by the terms and provision of this agreement. These Terms of Service govern your use of our website and services.</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Product Information</h2>
-            <p>All precious metals sold through GoldMandate are:</p>
+            <p>All precious metals sold through XicoTrading are:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Certified for purity and authenticity</li>
               <li>Sourced from reputable refineries</li>
@@ -69,13 +69,13 @@ const TermsOfService = () => {
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Limitation of Liability</h2>
-            <p>GoldMandate shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our services or products.</p>
+            <p>XicoTrading shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our services or products.</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Contact Information</h2>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <p><strong>Email:</strong> goldmandate254@gmail.com</p>
+              <p><strong>Email:</strong> Xicotradinglimited@gmail.com</p>
               <p><strong>Phone:</strong> +(254) 770 012 574</p>
               <p><strong>Address:</strong> Nairobi, Kenya, East Africa</p>
             </div>

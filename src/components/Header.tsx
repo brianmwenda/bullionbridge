@@ -21,9 +21,9 @@ const Header = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
              <Link to="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full"><img src="/lovable-uploads/icon.png" />  </div>
+              <div className="w-20 h-20 rounded-full"><img src="/lovable-uploads/icon.png" />  </div>
               <span className="text-xl font-extrabold tracking-wide bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                GoldMandate
+                XicoTrading
               </span>
             </Link>
 
@@ -47,7 +47,7 @@ const Header = () => {
               >
                 <Search className="w-4 h-4" />
               </Button>
-              <Button 
+              {/* <Button 
                 variant="ghost" 
                 size="sm" 
                 className="text-white hover:text-yellow-400 relative"
@@ -59,7 +59,7 @@ const Header = () => {
                     {cartCount}
                   </span>
                 )}
-              </Button>
+              </Button> */}
               <Button
                 variant="ghost"
                 size="sm"

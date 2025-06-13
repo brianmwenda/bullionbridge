@@ -1,4 +1,4 @@
-import { Shield, Truck, CreditCard, Award } from "lucide-react";
+import { Shield, Truck, DollarSign, Award } from "lucide-react";
 
 const Features = () => {
   const features = [
@@ -13,7 +13,7 @@ const Features = () => {
       description: "Fully insured shipping with signature confirmation and tracking for complete peace of mind."
     },
     {
-      icon: CreditCard,
+      icon: DollarSign,
       title: "Flexible Payment",
       description: "Multiple payment options including wire transfer, bank check, and cryptocurrency."
     },
@@ -29,7 +29,7 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">
-            Why Choose <span className="text-yellow-400">GoldMandate</span>?
+            Why Choose <span className="text-yellow-400">XicoTrading</span>?
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             With decades of experience in precious metals, we provide unmatched quality, 

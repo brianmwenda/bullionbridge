@@ -11,7 +11,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-20 overflow-hidden">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Gold Mandate</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About XicoTrading</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Your trusted partner in premium gold since 2015
           </p>
@@ -25,7 +25,7 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                GoldMandate was founded with a clear purpose: <strong> to bridge trusted gold sellers 
+                XicoTrading was founded with a clear purpose: <strong> to bridge trusted gold sellers 
                   from rich mining regions with serious global buyers. </strong> 
                   
                   We work directly with vetted small-scale miners, licensed dealers, and 
@@ -39,7 +39,7 @@ const About = () => {
 
               </p>
               <p className="text-gray-600">
-                At GoldMandate, we understand that in the gold trade, trust isn't optional, it's everything.
+                At XicoTrading, we understand that in the gold trade, trust isn't optional, it's everything.
               </p>
             </div>
             <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
@@ -59,7 +59,7 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Values</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              At GoldMandate, our commitment to trust, transparency, and authenticity is unwavering. 
+              At XicoTrading, our commitment to trust, transparency, and authenticity is unwavering. 
               These core principles guide every transaction we undertake, ensuring that our clients and 
               partners can rely on us to deliver consistent results. We connect verified gold sellers 
               with global buyers, ensuring certified quality and secure dealings. This dedication to our 
@@ -75,7 +75,7 @@ const About = () => {
               <h3 className="text-xl font-bold mb-3">Integrity</h3>
               <p className="text-gray-600">
                 We uphold honest business practices and maintain transparent communication in every 
-                transaction. At GoldMandate, integrity is the foundation of our role as trusted intermediaries, 
+                transaction. At XicoTrading, integrity is the foundation of our role as trusted intermediaries, 
                 ensuring both gold buyers and sellers can engage with confidence, knowing every deal is handled
                  with professionalism, ethics, and full disclosure.
               </p>
@@ -87,7 +87,7 @@ const About = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Quality</h3>
               <p className="text-gray-600">
-                At GoldMandate, quality is non-negotiable. Every gold product we facilitate undergoes rigorous testing 
+                At XicoTrading, quality is non-negotiable. Every gold product we facilitate undergoes rigorous testing 
                 and is backed by trusted certification to ensure authenticity and purity. Our commitment to high standards 
                 guarantees that buyers receive only verified, investment-grade gold from reliable sources across Kenya’s gold-producing regions.
               </p>
@@ -99,7 +99,7 @@ const About = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Trust</h3>
               <p className="text-gray-600">
-                Trust is at the heart of GoldMandate. We build lasting relationships by delivering consistent, reliable service and dedicated support. 
+                Trust is at the heart of XicoTrading. We build lasting relationships by delivering consistent, reliable service and dedicated support. 
                 Through verified partnerships and transparent processes, we ensure that every gold transaction is secure, compliant, 
                 and backed by the confidence our global clients depend on.
               </p>
@@ -114,7 +114,7 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Expertise</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Meet the professionals behind GoldMandate
+              Meet the professionals behind XicoTrading
             </p>
           </div>
           

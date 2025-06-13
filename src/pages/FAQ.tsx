@@ -92,10 +92,10 @@ const FAQ = () => {
                 Call: +(254) 770 012 574
               </a>
               <a 
-                href="mailto:GoldMandate@gmail.com" 
+                href="mailto:XicoTradinglimited@gmail.com" 
                 className="border border-yellow-500 text-yellow-600 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-50 transition-colors text-center"
               >
-                Email: GoldMandate@gmail.com
+                Email: Xicotradinglimited@gmail.com
               </a>
             </div>
           </div>
