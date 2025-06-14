@@ -100,7 +100,7 @@ const SearchDialog = ({ open, onOpenChange }: SearchDialogProps) => {
               </div>
             ) : (
               filteredResults.map((product) => (
-                <div
+                <Link to="/shop-gold-now"><div
                   key={product.id}
                   className="flex items-center gap-4 p-3 rounded-lg border hover:bg-gray-50 cursor-pointer transition-colors"
                 >
@@ -111,7 +111,7 @@ const SearchDialog = ({ open, onOpenChange }: SearchDialogProps) => {
                   />
                   <div className="flex-1">
                     <div className="flex items-center gap-2 mb-1">
-                      <h3 className="font-semibold text-gray-900"> <Link to="/shop-gold-now">{product.name}</Link> </h3>
+                      <h3 className="font-semibold text-gray-900"> {product.name} </h3>
                       <Badge className="bg-yellow-500 text-black text-xs">
                         {product.badge}
                       </Badge>
@@ -124,7 +124,7 @@ const SearchDialog = ({ open, onOpenChange }: SearchDialogProps) => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div></Link>
               ))
             )}
           </div>
