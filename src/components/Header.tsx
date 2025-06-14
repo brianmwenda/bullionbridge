@@ -73,7 +73,7 @@ const Header = () => {
           {/* Animated Mobile Navigation */}
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out md:hidden ${
-              menuOpen ? "max-h-80 opacity-100 translate-y-0" : "max-h-0 opacity-0 -translate-y-2"
+              menuOpen ? "max-h-90 opacity-100 translate-y-0" : "max-h-0 opacity-0 -translate-y-2"
             }`}
           >
             <nav className="flex flex-col gap-2 px-4 pb-4 pt-2 text-base font-medium">
