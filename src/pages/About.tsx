@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageWrapper from "@/components/PageWrapper";
-import Aboutvalues from "@/components/aboutvalues";
+import AboutValues from "@/components/AboutValues";
 
 const About = () => {
   return (
@@ -54,7 +54,7 @@ const About = () => {
         </div>
       </section>
 
-      <Aboutvalues/>
+      <AboutValues/>
 
       {/* Team Section */}
       <section className="py-16">

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { ShoppingCart, Search, Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
@@ -33,7 +32,7 @@ const Header = () => {
               <Link to="/about" className="transition-colors hover:text-yellow-400">About</Link>
               <Link to="/shop-gold-now" className="transition-colors hover:text-yellow-400">Available Gold</Link>
               <Link to="/learn-more" className="transition-colors hover:text-yellow-400">Returns & Exchanges</Link>
-              
+              <Link to="/blog" className="transition-colors hover:text-yellow-400">Blog</Link>
               <Link to="/contact" className="transition-colors hover:text-yellow-400">Contact</Link>
             </nav>
 
@@ -81,7 +80,8 @@ const Header = () => {
               <Link to="/" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Home</Link>
               <Link to="/about" className="text-left text-white hover:text-yellow-400 transition-colors py-2">About</Link>
               <Link to="/shop-gold-now" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Available Gold</Link>
-              <Link to="/learn-more" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Returns & Exchanges</Link>         
+              <Link to="/learn-more" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Returns & Exchanges</Link>
+              <Link to="/blog" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Blog</Link>
               <Link to="/contact" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Contact</Link>
               
               <Button 
