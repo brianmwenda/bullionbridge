@@ -31,7 +31,7 @@ const Header = () => {
             <nav className="hidden md:flex items-center space-x-8 text-base font-medium">
               <Link to="/" className="transition-colors hover:text-yellow-400">Home</Link>
               <Link to="/about" className="transition-colors hover:text-yellow-400">About</Link>
-              <Link to="/shop-gold-now" className="transition-colors hover:text-yellow-400">Store</Link>
+              <Link to="/shop-gold-now" className="transition-colors hover:text-yellow-400">Available Gold</Link>
               <Link to="/learn-more" className="transition-colors hover:text-yellow-400">Returns & Exchanges</Link>
               
               <Link to="/contact" className="transition-colors hover:text-yellow-400">Contact</Link>
@@ -74,13 +74,13 @@ const Header = () => {
           {/* Animated Mobile Navigation */}
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out md:hidden ${
-              menuOpen ? "max-h-60 opacity-100 translate-y-0" : "max-h-0 opacity-0 -translate-y-2"
+              menuOpen ? "max-h-80 opacity-100 translate-y-0" : "max-h-0 opacity-0 -translate-y-2"
             }`}
           >
             <nav className="flex flex-col gap-2 px-4 pb-4 pt-2 text-base font-medium">
               <Link to="/" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Home</Link>
               <Link to="/about" className="text-left text-white hover:text-yellow-400 transition-colors py-2">About</Link>
-              <Link to="/shop-gold-now" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Store</Link>
+              <Link to="/shop-gold-now" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Available Gold</Link>
               <Link to="/learn-more" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Returns & Exchanges</Link>         
               <Link to="/contact" className="text-left text-white hover:text-yellow-400 transition-colors py-2">Contact</Link>
               

@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageWrapper from "@/components/PageWrapper";
+import Aboutvalues from "@/components/aboutvalues";
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About XicoTrading</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Your trusted partner in premium gold since 2015
+            Your trusted partner in premium gold
           </p>
         </div>
       </section>
@@ -53,60 +54,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Values Section */}
-      <section className="bg-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Values</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              At XicoTrading, our commitment to trust, transparency, and authenticity is unwavering. 
-              These core principles guide every transaction we undertake, ensuring that our clients and 
-              partners can rely on us to deliver consistent results. We connect verified gold sellers 
-              with global buyers, ensuring certified quality and secure dealings. This dedication to our 
-              values makes us a trusted partner in sourcing gold and investment-grade precious metals worldwide.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">🔒</span>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Integrity</h3>
-              <p className="text-gray-600">
-                We uphold honest business practices and maintain transparent communication in every 
-                transaction. At XicoTrading, integrity is the foundation of our role as trusted intermediaries, 
-                ensuring both gold buyers and sellers can engage with confidence, knowing every deal is handled
-                 with professionalism, ethics, and full disclosure.
-              </p>
-            </div>
-            
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">✅</span>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Quality</h3>
-              <p className="text-gray-600">
-                At XicoTrading, quality is non-negotiable. Every gold product we facilitate undergoes rigorous testing 
-                and is backed by trusted certification to ensure authenticity and purity. Our commitment to high standards 
-                guarantees that buyers receive only verified, investment-grade gold from reliable sources across Kenya’s gold-producing regions.
-              </p>
-            </div>
-            
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">🤝</span>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Trust</h3>
-              <p className="text-gray-600">
-                Trust is at the heart of XicoTrading. We build lasting relationships by delivering consistent, reliable service and dedicated support. 
-                Through verified partnerships and transparent processes, we ensure that every gold transaction is secure, compliant, 
-                and backed by the confidence our global clients depend on.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Aboutvalues/>
 
       {/* Team Section */}
       <section className="py-16">

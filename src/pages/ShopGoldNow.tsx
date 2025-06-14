@@ -244,17 +244,18 @@ const ShopGoldNow = () => {
                   </CardContent>
                   
                   <CardFooter className="p-6 pt-0">
-                <Button 
-                  className="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-black font-semibold"
+                <Button
+                  className="w-50 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-black font-semibold rounded-[10px] shadow-md transition active:scale-95"
                   onClick={() => {
                     const whatsappNumber = "254770012574";
                     const message = `Hi, I'm interested in the ${product.name}. Can you tell me more about it?`;
-                    const whatsappUrl = `https://wa.me/254770012574?text=${message}`;
+                    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
                     window.open(whatsappUrl, '_blank');
                   }}
                 >
                   Inquire Now
                 </Button>
+
               </CardFooter>
                 </Card>
               ))}

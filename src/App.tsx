@@ -14,6 +14,7 @@ import FAQ from "./pages/FAQ";
 import ShopGoldNow from "./pages/ShopGoldNow";
 import LearnMore from "./pages/LearnMore";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/shop-gold-now" element={<ShopGoldNow />} />

@@ -124,13 +124,20 @@ const ProductGrid = () => {
                   </div>
                   <div className="flex items-center space-x-2 text-sm text-gray-600">
                     <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                     <Star
+                        className="w-4 h-4 text-yellow-400"
+                        style={{ clipPath: "inset(0 50% 0 0)" }}
+                      />
                     <span>{product.rating} ({product.reviews} reviews)</span>
                   </div>
                 </div>
               </CardContent>
               
               <CardFooter className="p-6 pt-0">
-                <Button 
+                {/* <Button 
                   className="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-black font-semibold"
                   onClick={() => {
                     const whatsappNumber = "254770012574";
@@ -140,7 +147,7 @@ const ProductGrid = () => {
                   }}
                 >
                   Inquire Now
-                </Button>
+                </Button> */}
               </CardFooter>
 
             </Card>
