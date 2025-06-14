@@ -16,27 +16,51 @@ const SearchDialog = ({ open, onOpenChange }: SearchDialogProps) => {
   const searchResults = [
     {
       id: 1,
-      name: "24k Gold Bar - PAMP Suisse",
-      price: "$80,089.99",
+      name: "23k Gold Bars - DRC",
+      price: "$70,000.00",
       image: "/lovable-uploads/8fa12c23-7e6b-4dd0-95a3-95b4419b4d4f.png",
-      rating: 4.9,
+      rating: 8.5,
       badge: "Best Seller"
     },
     {
       id: 2,
-      name: "23k Gold Nuggets Collection",
-      price: "$68,245.50",
+      name: "23k Gold Nuggets Rough",
+      price: "$70,000.00",
       image: "/lovable-uploads/3eab1b5f-995d-42f3-a571-8593e7ef7d82.png",
-      rating: 4.8,
+      rating: 9.5,
       badge: "Rare"
     },
-    {
+       {
       id: 3,
-      name: "Professional Gold Bars",
-      price: "$79,890.99",
+      name: "23k Gold Nuggets Rounded",
+      price: "$70,000.00",
+      image: "/lovable-uploads/a5a2b5e8-cf09-4c93-af15-821caa576802.jpg",
+      badge: "Limited",
+      rating: 9.0,
+    },
+    {
+      id: 4,
+      name: "22k Gold Bars - Raw Gold",
+      price: "$65,000.00",
       image: "/lovable-uploads/e0049816-dbab-4b43-be2c-ec8590dd08a1.png",
-      rating: 4.9,
+      rating: 8.5,
       badge: "Premium"
+    },
+    {
+      id: 5,
+      name: "23k Gold Bars Vault Reserve",
+      price: "$70,000.00",
+      image: "/lovable-uploads/615ecc60-7806-4ef1-a21a-3e88d5fba90c.jpg",
+      badge: "Wholesale",
+      rating: 9.0,
+    },
+    {
+      id: 6,
+      name: "23k Gold bar Collection",
+      price: "$70,000.00",
+      image: "/lovable-uploads/23c0b343-dcbb-4dad-bebd-5bbe1d1598f1.png",
+      badge: "New",
+      rating: 8.0,
     }
   ];
 

@@ -72,7 +72,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Contact Us</h2>
             <p>If you have any questions about this Privacy Policy, please contact us at:</p>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <p><strong>Email:</strong> Xicotradinglimited@gmail.com</p>
+              <p><strong>Email:</strong> xicotradinglimited@gmail.com</p>
               <p><strong>Phone:</strong> +(254) 770 012 574</p>
               <p><strong>Address:</strong> Nairobi, Kenya, East Africa</p>
             </div>

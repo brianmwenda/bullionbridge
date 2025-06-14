@@ -23,7 +23,7 @@ const Header = () => {
              <Link to="/" className="flex items-center space-x-2">
               <div className="w-20 h-20 rounded-full"><img src="/lovable-uploads/icon.png" />  </div>
               <span className="text-xl font-extrabold tracking-wide bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                XicoTrading
+                {/* XicoTrading */}
               </span>
             </Link>
 

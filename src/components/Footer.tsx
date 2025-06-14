@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-               <div className="w-20 h-20 rounded-full"><img src="/lovable-uploads/icon.png" />  </div>
+               <div className="w-8 h-8 rounded-full bg-yellow-600 rounded-full"> </div>
               <span className="text-xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
                 XicoTrading
               </span>
@@ -74,7 +74,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-yellow-400" />
-                <span className="text-gray-300">XicoTradinglimited@gmail.com</span>
+                <span className="text-gray-300">xicotradinglimited@gmail.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-yellow-400 mt-1" />
