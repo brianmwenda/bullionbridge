@@ -33,12 +33,7 @@ const Contact = () => {
                   <h2 className="text-3xl font-bold text-gray-800 mb-8">Get in Touch</h2>
                   
                   <div className="space-y-6">
-                    <div className="bg-white p-6 rounded-lg shadow-md">
-                      <h3 className="text-xl font-semibold text-yellow-600 mb-4">Phone</h3>
-                      <p className="text-gray-600 mb-2">Sales: +(254) 770 012 574</p>
-                       <p className="text-gray-600 text-sm">Monday - Friday: 8:00 AM - 6:00 PM EST</p>
-                    </div>
-
+                  
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h3 className="text-xl font-semibold text-yellow-600 mb-4">Email</h3>
                       <p className="text-gray-600 mb-2">xicotradinglimited@gmail.com</p>
@@ -47,8 +42,8 @@ const Contact = () => {
 
                     <div className="bg-white p-6 rounded-lg shadow-md">
                       <h3 className="text-xl font-semibold text-yellow-600 mb-4">Address</h3>
-                      <p className="text-gray-600 mb-2">Lavington, Kenya</p>
-                      <p className="text-gray-600 mb-2">00100, Nairobi</p>
+                      <p className="text-gray-600 mb-2">Nairobi, Kenya</p>
+                      <p className="text-gray-600 mb-2">Postal code, 00100</p>
                       <p className="text-gray-600 text-sm">Visit by appointment only</p>
                     </div>
 
@@ -85,7 +80,7 @@ const Contact = () => {
                   <div className="space-y-4">
                     <div className="bg-yellow-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-800 mb-2">What forms of payment do you accept?</h4>
-                      <p className="text-gray-600 text-sm">We accept bank wire transfers, cashier's checks, and personal checks (with verification).</p>
+                      <p className="text-gray-600 text-sm">We accept bank wire transfers, USDT, and Cash and Carry options.</p>
                     </div>
                     <div className="bg-yellow-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-800 mb-2">Do you offer storage services?</h4>
@@ -93,7 +88,7 @@ const Contact = () => {
                     </div>
                     <div className="bg-yellow-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-800 mb-2">What is your return policy?</h4>
-                      <p className="text-gray-600 text-sm">We offer a 7-day return policy on most products. Items must be in original condition.</p>
+                      <p className="text-gray-600 text-sm">We offer a 7-14 day return policy on most products. Items must be in original condition.</p>
                     </div>
                   </div>
                 </div>

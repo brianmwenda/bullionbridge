@@ -8,7 +8,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "What types of precious metals do you sell?",
-      answer: "We specialize in investment-grade gold bars, gold coins, silver bullion, and platinum products. All our products are certified for purity and authenticity."
+      answer: "We specialize in investment-grade gold bars, gold nuggets and Powder products. All our products are certified for purity and authenticity."
     },
     {
       question: "How do you ensure the authenticity of your products?",
@@ -16,7 +16,7 @@ const FAQ = () => {
     },
     {
       question: "What payment methods do you accept?",
-      answer: "We accept major credit cards (Visa, MasterCard, American Express), wire transfers, and certified checks. All payments are processed securely through encrypted channels."
+      answer: "We accept major USDT, wire transfers, and cash & carry options. All payments are processed securely through encrypted channels."
     },
     {
       question: "How long does shipping take?",
@@ -40,7 +40,7 @@ const FAQ = () => {
     },
     {
       question: "Do you buy back precious metals?",
-      answer: "Yes, we offer competitive buyback prices for products purchased from us. Contact our team for current buyback rates and procedures."
+      answer: "Yes, we offer competitive buyback prices for products purchased from us. Contact our us for current buyback rates and procedures."
     },
     {
       question: "What if the price changes after I place an order?",
@@ -82,14 +82,14 @@ const FAQ = () => {
           <div className="mt-12 bg-yellow-50 p-8 rounded-lg border border-yellow-200">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Still have questions?</h3>
             <p className="text-gray-700 mb-4">
-              Our customer service team is here to help. Contact us for personalized assistance with your precious metals investment needs.
+              Our customer service channel is here to help. Contact us for personalized assistance with your precious metals investment needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="tel:+254735389953" 
                 className="bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-600 transition-colors text-center"
               >
-                Call: +(254) 770 012 574
+                Whatsapp: +(254) 770 012 574
               </a>
               <a 
                 href="mailto:xicotradinglimited@gmail.com" 

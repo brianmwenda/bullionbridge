@@ -20,10 +20,10 @@ const TermsOfService = () => {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Product Information</h2>
             <p>All precious metals sold through XicoTrading are:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Certified for purity and authenticity</li>
-              <li>Sourced from reputable refineries</li>
-              <li>Accompanied by certificates of authenticity</li>
-              <li>Subject to market price fluctuations</li>
+              <li>Certified for purity and authenticity.</li>
+              <li>Sourced from reputable refineries.</li>
+              <li>Accompanied by certificates of authenticity.</li>
+              <li>Subject to market price fluctuations.</li>
             </ul>
           </section>
 
@@ -31,10 +31,9 @@ const TermsOfService = () => {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">3. Pricing and Payment</h2>
             <p>Our pricing policies include:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Prices are subject to change based on market conditions</li>
-              <li>All prices are in USD unless otherwise specified</li>
-              <li>Payment must be received before shipment</li>
-              <li>We accept major credit cards and wire transfers</li>
+              <li>Prices are subject to change based on market conditions.</li>
+              <li>All prices are in USD unless otherwise specified.</li>
+              <li>We accept USDT, Cash & Carry and wire transfers.</li>
             </ul>
           </section>
 
@@ -42,10 +41,10 @@ const TermsOfService = () => {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">4. Shipping and Delivery</h2>
             <p>Shipping terms and conditions:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>All shipments are fully insured</li>
-              <li>Delivery times vary by location and product</li>
-              <li>Signature confirmation required for delivery</li>
-              <li>Customer responsible for import duties and taxes</li>
+              <li>All shipments are fully insured.</li>
+              <li>Delivery times vary by location and product Quantity.</li>
+              <li>Signature confirmation required for delivery.</li>
+              <li>Customer/buyer responsible for import duties and taxes.</li>
             </ul>
           </section>
 
@@ -53,10 +52,10 @@ const TermsOfService = () => {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">5. Returns and Exchanges</h2>
             <p>Our return policy includes:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Returns accepted within 30 days of delivery</li>
-              <li>Products must be in original condition</li>
-              <li>Return shipping fees may apply</li>
-              <li>Refunds processed within 5-7 business days</li>
+              <li>Returns accepted within 30 days of delivery.</li>
+              <li>Products must be in original condition.</li>
+              <li>Return shipping fees may apply.</li>
+              <li>Refunds processed within 5-7 business days.</li>
             </ul>
           </section>
 
