@@ -1,9 +1,11 @@
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageWrapper from "@/components/PageWrapper";
 import { useParams, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Share, Facebook, Twitter, Linkedin } from "lucide-react";
+import { toast } from "@/hooks/use-toast";
+import React from "react";
 
 const BLOGS = [
   {
@@ -13,7 +15,7 @@ const BLOGS = [
     date: "2025-06-13",
     cover: "/lovable-uploads/blog/howtoinvestgold.jpg",
     author: "XicoTrading",
-   content: `
+    content: `
       
       <p>Gold has been valued for centuries, serving not just as a precious metal for jewelry but as a cornerstone for wealth preservation. In times of economic uncertainty, geopolitical tension, or market volatility, investors often turn to gold as a safe haven. For beginners, the world of gold investment may seem complex, but with the right information, it can be a rewarding strategy for securing your financial future.</p>
 
@@ -225,6 +227,50 @@ const BlogDetail = () => {
   const { id } = useParams<{ id: string }>();
   const post = BLOGS.find((b) => b.id === id);
 
+  // Copy share function using navigator clipboard
+  const handleShare = React.useCallback(() => {
+    const url = window.location.origin + "/blog/" + id;
+    navigator.clipboard.writeText(url)
+      .then(() => {
+        toast({
+          title: "Link copied!",
+          description: "The blog post URL has been copied to your clipboard.",
+        });
+      })
+      .catch(() => {
+        toast({
+          title: "Copy failed",
+          description: "Unable to copy the link.",
+          variant: "destructive"
+        });
+      });
+  }, [id]);
+
+  // Social share handlers
+  const postUrl = window.location.origin + "/blog/" + id;
+  const postTitle = post?.title || "Check this blog post!";
+
+  const handleSocialShare = (platform: "facebook" | "twitter" | "linkedin") => {
+    let shareUrl = "";
+    const encodedUrl = encodeURIComponent(postUrl);
+    const encodedTitle = encodeURIComponent(postTitle);
+
+    switch (platform) {
+      case "facebook":
+        shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+        break;
+      case "twitter":
+        shareUrl = `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`;
+        break;
+      case "linkedin":
+        shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`;
+        break;
+      default:
+        break;
+    }
+    window.open(shareUrl, "_blank", "noopener,noreferrer");
+  };
+
   if (!post) {
     return (
       <PageWrapper>
@@ -259,6 +305,55 @@ const BlogDetail = () => {
             <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
             <div className="text-yellow-300 text-sm mb-1">By {post.author}</div>
             <div className="prose prose-lg prose-yellow max-w-none text-white" dangerouslySetInnerHTML={{ __html: post.content }} />
+
+            {/* Share Buttons */}
+            <div className="flex flex-col gap-2 mt-8 mb-8">
+              <div className="flex items-center gap-3">
+                <Button
+                  variant="outline"
+                  className="border-yellow-500 text-yellow-700 hover:bg-yellow-500 hover:text-black font-medium flex items-center gap-2"
+                  onClick={handleShare}
+                  aria-label="Copy link to blog post"
+                >
+                  <Share size={18} className="mr-1" />
+                  Copy Link
+                </Button>
+                <span className="text-xs text-gray-400">Share this post</span>
+              </div>
+              <div className="flex items-center gap-3 mt-2">
+                <Button
+                  type="button"
+                  variant="outline"
+                  className="border-blue-700 text-blue-500 hover:bg-blue-600 hover:text-white"
+                  aria-label="Share on Facebook"
+                  onClick={() => handleSocialShare("facebook")}
+                >
+                  <Facebook size={18} />
+                  <span className="hidden sm:inline ml-1">Facebook</span>
+                </Button>
+                <Button
+                  type="button"
+                  variant="outline"
+                  className="border-blue-400 text-sky-400 hover:bg-sky-500 hover:text-white"
+                  aria-label="Share on Twitter"
+                  onClick={() => handleSocialShare("twitter")}
+                >
+                  <Twitter size={18} />
+                  <span className="hidden sm:inline ml-1">Twitter</span>
+                </Button>
+                <Button
+                  type="button"
+                  variant="outline"
+                  className="border-blue-500 text-blue-500 hover:bg-blue-700 hover:text-white"
+                  aria-label="Share on LinkedIn"
+                  onClick={() => handleSocialShare("linkedin")}
+                >
+                  <Linkedin size={18} />
+                  <span className="hidden sm:inline ml-1">LinkedIn</span>
+                </Button>
+              </div>
+            </div>
+
             <div className="mt-12">
               <Link to="/blog">
                 <Button variant="outline" className="border-yellow-500 text-yellow-700 hover:bg-yellow-500 hover:text-black font-medium">
