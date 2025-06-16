@@ -67,7 +67,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-yellow-400/20 to-transparent rounded-3xl"></div>
             <img 
               src="/lovable-uploads/cc73534c-1aea-473e-91c6-0a4ca2af6021.jpg" 
-              alt="Premium Gold Bar"
+              alt="Gold Bar"
               className="w-full h-auto rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute top-4 right-4 bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-semibold">

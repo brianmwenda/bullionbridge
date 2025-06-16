@@ -14,7 +14,7 @@ const About = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About XicoTrading</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Your trusted partner in premium gold
+            Your trusted partner in gold collection.
           </p>
         </div>
       </section>

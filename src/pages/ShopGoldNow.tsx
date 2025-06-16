@@ -142,7 +142,7 @@ const ShopGoldNow = () => {
         <section className="relative bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-20 overflow-hidden">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Shop Premium Gold Collection
+              Shop Our Gold Collection
             </h1>
             <p className="text-xl text-white/80 max-w-2xl mx-auto mb-8">
               Discover our complete range of investment-grade precious metals. 
